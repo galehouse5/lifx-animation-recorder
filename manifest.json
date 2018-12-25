@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+    "name": "LIFX Animation Recorder",
+    "version": "0.1.0",
+    "icons": {
+        "32": "icon-32.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.youtube.com/*"
+            ],
+            "css": [
+                "marker.css"
+            ],
+            "js": [
+                "marker.js",
+                "object-helper.js",
+                "sequence.js",
+                "recorder.js",
+                "video.js",
+                "start.js"
+            ]
+        }
+    ]
+}

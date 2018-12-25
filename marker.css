@@ -1,0 +1,21 @@
+.lifx-animation-recorder__marker {
+    position: absolute;
+    z-index: 1;
+    border-radius: 50%;
+    border: 1px solid white;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    box-shadow: 0 0 5px black;
+    margin-left: -9px;
+    margin-top: -9px;
+    line-height: 16px;
+}
+
+.lifx-animation-recorder__marker::before {
+    content: attr(data-number);
+    color: white;
+    font-size: 9px;
+    font-family: sans-serif;
+    text-shadow: 0 0 5px black;
+}
