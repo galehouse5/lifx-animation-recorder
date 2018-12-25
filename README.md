@@ -8,3 +8,10 @@ These steps assume the Chrome extension is already installed.
 ![Light Markers Example](light-markers-example.png)
 3. Seek to the start of the video (or whichever time you'd like the recording to start) and let the video play through (or stop the video when you'd like the recording to stop). When the video finishes playing (or is stopped), a sequence file containing light animation data is automatically downloaded and can be replayed using [LIFX Animator](https://github.com/galehouse5/LifxAnimator).
 ![Recorded Sequence Example](recorded-sequence-example.png)
+
+## Post processing
+It's recommended that the recorded sequence be post processed, using an image editor, before it's played using [LIFX Animator](https://github.com/galehouse5/LifxAnimator). The color signals may contain distortion that results from the environment the light show was recorded in. Here are some examples:
+- If a light source is obscured in the scene then you may have to record its reflection from surface, like brick, vinyl, or painted wood, and this will alter the color of the captured light.
+- If a light source is in close proximity to another light source then your recording will contain a secondary signal caused by diffuse reflection.
+
+Distortion can be reduced through careful marker placement and by using image filters in [paint.net](https://www.getpaint.net/), or your preferred image editor. In my experience, the "Levels", "Hue / Saturation", and "Posterize" filters are helpful.
