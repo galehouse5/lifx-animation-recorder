@@ -10,8 +10,8 @@ These steps assume the Chrome extension is already installed.
 ![Recorded Sequence Example](recorded-sequence-example.png)
 
 ## Post processing
-It's recommended that the recorded sequence be post processed, using an image editor, before it's played using [LIFX Animator](https://github.com/galehouse5/LifxAnimator). The color signals may contain distortion that results from the environment the light show was recorded in. Here are some examples:
-- If a light source is obscured in the scene then you may have to record its reflection from surface, like brick, vinyl, or painted wood, and this will alter the color of the captured light.
-- If a light source is in close proximity to another light source then your recording will contain a secondary signal caused by diffuse reflection.
+It's recommended that the recorded sequence be post processed with an image editor before it's replayed. The color signals may contain distortion that results from the environment the light show was recorded in. Here are some examples:
+- If a light source is obscured in the scene then you may have to record its reflection from a surface, like brick, vinyl, or painted wood, and this will alter the color of the captured light.
+- If a light source is in close proximity to another light source then you may indirectly record some color information from the secondary light source.
 
 Distortion can be reduced through careful marker placement and by using image filters in [paint.net](https://www.getpaint.net/), or your preferred image editor. In my experience, the "Levels", "Hue / Saturation", and "Posterize" filters are helpful.
